@@ -18,25 +18,25 @@ git commit -m "Test Git Files"
 git branch
 
 # Modify Branch Name
-git branch -M "dev"
+git branch -M "main"
 
 # Modify Branch Name
-git branch -M "dev"
+git branch -M "main"
 
 # Connect with git repo 
 git remote add origin https://github.com/kmsaddam/git-assignment.git
 
 # Git Push Command 
-git push origin dev
+git push origin main
 
 # Frequently Push Command  
-git push -u origin dev
+git push -u origin main
 
 # Pull Command  
-git pull origin dev
+git pull origin main
 
 # Frequently Pull Command  
-git pull origin dev
+git pull -u origin main
 
 
 
